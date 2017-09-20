@@ -32,7 +32,7 @@ public class Brick_Breaker extends JPanel implements Runnable,KeyListener,Action
 	int batx=190;
 	int baty=392;
 	
-//for making bricks
+
     //for making bricks
 	int brickx=28;
 	int bricky=30;
@@ -43,6 +43,7 @@ public class Brick_Breaker extends JPanel implements Runnable,KeyListener,Action
 	 boolean gameOvermsg=false;
 
 //declare rectangle for the ball and also bat
+    //declare rectangle for the ball and also bat
 	Rectangle ball=new Rectangle(ballx, bally, 10, 10);
     Rectangle bat=new Rectangle(batx, baty, 60, 7);
     Rectangle bricks[]=new Rectangle[20];
