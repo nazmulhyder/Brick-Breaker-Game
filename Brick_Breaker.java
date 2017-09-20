@@ -48,7 +48,7 @@ public class Brick_Breaker extends JPanel implements Runnable,KeyListener,Action
 	public Brick_Breaker() {
 		//constructor
 	}
-	
+	// main method starting here
 public static void main(String[] args){
 		JFrame gameFrame=new JFrame("Brick Breaker");
 		JButton gameButton=new JButton("Restart");
