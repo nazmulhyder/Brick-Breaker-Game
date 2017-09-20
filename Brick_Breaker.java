@@ -24,6 +24,7 @@ public class Brick_Breaker extends JPanel implements Runnable,KeyListener,Action
     
 
 //declare position of x axis and y axis of the ball
+    //declare position of x axis and y axis of the ball
 	int ballx=217;
 	int bally=378;
 //declare the position of the x axis and y axis of the bat
