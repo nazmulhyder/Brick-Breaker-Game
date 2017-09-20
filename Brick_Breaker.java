@@ -42,7 +42,7 @@ public class Brick_Breaker extends JPanel implements Runnable,KeyListener,Action
 	 boolean right=false;
 	 boolean gameOvermsg=false;
 
-//declare rectangle for the ball and also bat
+
     //declare rectangle for the ball and also bat
 	Rectangle ball=new Rectangle(ballx, bally, 10, 10);
     Rectangle bat=new Rectangle(batx, baty, 60, 7);
@@ -250,7 +250,8 @@ public void actionPerformed(ActionEvent e) {
 		}
 		
 	}
-//restart method
+
+    //restart method
       public void restart(){
 	   requestFocus(true);
 	 //declare position of x axis and y axis of the ball
